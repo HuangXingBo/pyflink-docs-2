@@ -61,7 +61,7 @@ html_static_path = ['_static']
 
 html_theme_options = {
     "switcher": {
-        "json_url": "https://github.com/HuangXingBo/pyflink-docs-2/tree/test/docs/_static/switcher.json",
+        "json_url": "https://pyflink-docs-test2.readthedocs.io/en/latest/_static/switcher.json",
         "version_match": flink_doc_version,
     },
     "navbar_end": ["version-switcher"]
