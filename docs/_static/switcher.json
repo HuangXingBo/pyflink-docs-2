@@ -4,10 +4,6 @@
     "url": "https://pyflink.readthedocs.io/en/main/getting_started/index.html"
   },
   {
-    "version": "test",
-    "url": "https://pyflink.readthedocs.io/en/main/getting_started/index.html"
-  },
-  {
     "version": "release-1.16",
     "url": "https://pyflink.readthedocs.io/en/release-1.16/getting_started/index.html"
   },
