@@ -30,6 +30,7 @@ master_doc = 'index'
 project = 'pyflink-docs'
 author = 'PyFlink'
 copyright = ''
+release = 'master'
 flink_doc_version = "release-1.16"
 html_show_copyright = False
 
@@ -55,3 +56,12 @@ rst_epilog = """
     flink_doc_version)
 
 html_theme = 'pydata_sphinx_theme'
+
+html_static_path = ['_static']
+
+html_theme_options = {
+    "switcher": {
+        "json_url": "https://github.com/HuangXingBo/pyflink-docs-2/tree/test/docs/_static/switcher.json"
+    },
+    "navbar_end": ["version-switcher"]
+}
